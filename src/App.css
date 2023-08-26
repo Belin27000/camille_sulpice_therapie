@@ -1,5 +1,14 @@
+:root {
+  --mainBlue: #355E82;
+  --secondaryBeige: #FADBB3;
+  --thirdWhite: #FCFAF9;
+  --fourthpurple: #BD8B9C;
+}
+
+
 .App {
   text-align: center;
+  font-size: 18px;
 }
 
 .App-logo {
@@ -32,6 +41,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,0 +1,73 @@
+.Home {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    /* padding: 1rem; */
+    align-items: center;
+}
+
+.Home>div {
+    height: 100%;
+    width: 80%;
+    box-shadow: 0px 5px 5px var(--mainBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Home>div>p {
+    text-align: start;
+    margin: 0 5rem;
+}
+
+
+.quote {
+    color: var(--fourthpurple);
+    /* font-size: 1rem; */
+    font-weight: bold;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quote p {
+    padding-top: 2rem;
+    width: 40%;
+    font-size: 2rem;
+}
+
+.textHightLight {
+    color: var(--fourthpurple);
+    font-weight: bold;
+}
+
+section {
+    margin: 0 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.difficultyList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.difficultyList ul {
+    text-align: start;
+}
+
+.imgContainer {
+    width: 25%;
+    padding-right: 10rem;
+}
+
+.imgContainer img {
+    width: 100%;
+    border-radius: 50%;
+
+}
