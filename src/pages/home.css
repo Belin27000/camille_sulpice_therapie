@@ -3,40 +3,31 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-between;
-    /* padding: 1rem; */
     align-items: center;
 }
 
-.Home>div {
-    height: 100%;
-    width: 80%;
-    box-shadow: 0px 5px 5px var(--mainBlue);
+.HomeIntro {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin: 0 2rem;
 }
 
-.Home>div>p {
+.HomeIntro * {
     text-align: start;
-    margin: 0 5rem;
+    margin: 2rem 0;
+    font-size: 1.5rem;
 }
-
 
 .quote {
-    color: var(--fourthpurple);
-    /* font-size: 1rem; */
-    font-weight: bold;
-    margin: 0;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 1rem 0;
 }
 
 .quote p {
-    padding-top: 2rem;
-    width: 40%;
-    font-size: 2rem;
+    color: var(--fourthpurple);
+    width: 37%;
 }
 
 .textHightLight {
@@ -44,30 +35,134 @@
     font-weight: bold;
 }
 
-section {
-    margin: 0 5rem;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.difficulty {
+    background: var(--mainBlue);
+    margin: 0 2rem;
 }
 
-.difficultyList {
+.difficultyHead {
+    color: var(--thirdWhite);
+    margin: 0;
+    padding: 0 2rem;
+    font-size: 2rem;
+}
+
+
+.damierGlobal {
+    display: flex;
+}
+
+.damierLeft,
+.damierRight {
+    width: 50%;
+}
+
+.conflict,
+.despress,
+.Phobies,
+.Disease {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    background: var(--fourthpurple);
+    color: var(--thirdWhite);
+}
+
+.conflictPic,
+.conflictDes,
+.despresstPic,
+.despressDes,
+.PhobiesPic,
+.PhobiesDes,
+.DiseasePic,
+.DiseaseDes {
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.difficultyList ul {
-    text-align: start;
+.TitleDifficulties {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-.imgContainer {
-    width: 25%;
-    padding-right: 10rem;
-}
 
-.imgContainer img {
+.conflictPic img,
+.despresstPic img,
+.PhobiesPic img,
+.DiseasePic img {
     width: 100%;
-    border-radius: 50%;
+    height: auto;
+}
 
+.more {
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.more a {
+    margin-left: 2rem;
+    color: var(--fourthpurple);
+    text-decoration: none;
+}
+
+@media screen and (max-width:1024px) {
+
+    .HomeIntro *,
+    .difficulty *,
+    .more {
+        font-size: 1.3rem;
+    }
+
+    .quote p {
+        margin: 0;
+    }
+
+    .damierGlobal {
+        flex-direction: column;
+    }
+
+    .damierLeft,
+    .damierRight {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:769px) {
+
+    .HomeIntro * {
+        font-size: 1rem;
+    }
+
+    .more {
+        display: initial;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .HomeIntro *,
+    .more {
+        font-size: .7rem;
+    }
+
+    .difficulty * {
+        font-size: 1rem;
+    }
+
+    .quote {
+        border-radius: 10px;
+    }
+
+    .quote p {
+        font-size: 1rem;
+        width: 35%;
+        padding: 1rem;
+        text-align: center;
+    }
 }
