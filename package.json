@@ -16,7 +16,7 @@
   "scripts": {
     "starto": "react-scripts start",
     "start": "craco start",
-    "buildo": "react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
