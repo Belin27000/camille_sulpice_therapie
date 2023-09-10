@@ -12,13 +12,13 @@ import Layout from '@/Layouts/Layout.js';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/camille_sulpice_therapie'>
         <Routes>
           <Route element={<Layout />}>
 
             <Route index element={<Home />} />
 
-            <Route path='/home' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='/accompagnement' element={<Accompagnement />} />
             <Route path='/apropos' element={<Apropos />} />
             <Route path='/endometriose' element={<Endometriose />} />

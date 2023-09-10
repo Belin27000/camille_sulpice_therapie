@@ -1,6 +1,7 @@
 {
   "name": "camille_sulpice",
   "version": "0.1.0",
+  "homepage": "https://belin27000.github.io/camille_sulpice_therapie",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -13,11 +14,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "starto": "craco start",
-    "build": "react-scripts build",
+    "starto": "react-scripts start",
+    "start": "craco start",
+    "buildo": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^7.1.0"
+    "@craco/craco": "^7.1.0",
+    "gh-pages": "^6.0.0"
   }
 }
