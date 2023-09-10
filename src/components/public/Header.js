@@ -1,24 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import CSulpice_logo from '@/assets/CSulpice_logo.png'
+import CSulpice_logo from '@/assets/Logo_CS.png'
+import Title from '@/assets/Title_CS.png'
 import '@/components/public/header.css'
+import NavBar from '@/components/NavBar/NavBar.js';
 
 const Header = () => {
     return (
         <header className='Header'>
             <div>
                 <img className='Logo' src={CSulpice_logo} alt='main logo' />
+                <img className='TitleHeader' src={Title} alt='main logo' />
             </div>
-            <nav>
-                <ul>
-                    <li><Link to="/home">Accueil</Link></li>
-                    <li><Link to="/accompagnement">Accompagnement</Link></li>
-                    <li><Link to="/apropos">Qui suis-je ?</Link></li>
-                    <li><Link to="/endometriose">Endométriose</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+            <NavBar />
 
-                </ul>
-            </nav>
         </header>
     );
 };
