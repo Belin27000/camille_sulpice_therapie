@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/camille_sulpice_therapie/static/css/main.37805071.css",
+    "main.js": "/camille_sulpice_therapie/static/js/main.6d0e9637.js",
+    "static/js/787.09a9dbaa.chunk.js": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js",
+    "static/media/smiley.jpg": "/camille_sulpice_therapie/static/media/smiley.818640c6feb8ce6c05fa.jpg",
+    "static/media/CSulpice_logo.png": "/camille_sulpice_therapie/static/media/CSulpice_logo.2acc8dd088a476376fe4.png",
+    "index.html": "/camille_sulpice_therapie/index.html",
+    "main.37805071.css.map": "/camille_sulpice_therapie/static/css/main.37805071.css.map",
+    "main.6d0e9637.js.map": "/camille_sulpice_therapie/static/js/main.6d0e9637.js.map",
+    "787.09a9dbaa.chunk.js.map": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37805071.css",
+    "static/js/main.6d0e9637.js"
+  ]
+}
