@@ -28,16 +28,16 @@ const NavBar = () => {
     }, [])
     return (
         <nav>
-            {(toggleMenu || screenWidth > 500) && (
+            {(toggleMenu || screenWidth > 769) && (
                 <ul className="list">
-                    <Link to="/home" onClick={toggleNav} className="items"><li >Accueil</li></Link>
-                    <Link to="/accompagnement" onClick={toggleNav} className="items"><li>Accompagnement</li></Link>
-                    <Link to="/apropos" onClick={toggleNav} className="items"><li>Qui suis-je ?</li></Link>
-                    <Link to="/endometriose" onClick={toggleNav} className="items"><li>Endométriose</li></Link>
-                    <Link to="/contact" onClick={toggleNav} className="items"><li>Contact</li></Link>
+                    <li><Link to="/home" onClick={toggleNav} className="items">Accueil</Link></li>
+                    <li><Link to="/accompagnement" onClick={toggleNav} className="items">Accompagnement</Link></li>
+                    <li><Link to="/apropos" onClick={toggleNav} className="items">Qui suis-je ?</Link></li>
+                    <li><Link to="/endometriose" onClick={toggleNav} className="items">Endométriose</Link></li>
+                    <li><Link to="/contact" onClick={toggleNav} className="items">Contact</Link></li>
                 </ul>
             )}
-            <button onClick={toggleNav} className="btn" >
+            <button onClick={toggleNav} className="btn" aria-label='menu' >
                 <FaBars className={!toggleMenu ? 'iconMenu isActive' : 'iconMenu'} />
                 <FaTimes className={toggleMenu ? 'closeIconMenu isActive' : 'iconMenu'} />
             </button>

@@ -26,12 +26,13 @@
 }
 
 .quote p {
-    color: var(--fourthpurple);
+    color: var(--thirdWhite);
+    background: var(--mainBlue);
     width: 37%;
 }
 
 .textHightLight {
-    color: var(--fourthpurple);
+    color: var(--mainBlue);
     font-weight: bold;
 }
 
@@ -64,8 +65,8 @@
     width: 100%;
     display: flex;
     margin: 0;
-    background: var(--fourthpurple);
-    color: var(--thirdWhite);
+    background: var(--secondaryBeige);
+    color: var(--mainBlue);
 }
 
 .conflictPic,
@@ -93,7 +94,7 @@
 .PhobiesPic img,
 .DiseasePic img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .more {
@@ -104,7 +105,7 @@
 
 .more a {
     margin-left: 2rem;
-    color: var(--fourthpurple);
+    color: var(--mainBlue);
     text-decoration: none;
 }
 
@@ -148,7 +149,7 @@
 
     .HomeIntro *,
     .more {
-        font-size: .7rem;
+        font-size: .75rem;
     }
 
     .difficulty * {

@@ -10,13 +10,13 @@ header div {
 
 .Logo {
     width: 25%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
 .TitleHeader {
     width: 75%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
