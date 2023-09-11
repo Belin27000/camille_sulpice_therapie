@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/camille_sulpice_therapie/static/css/main.d900ec37.css",
-    "main.js": "/camille_sulpice_therapie/static/js/main.63f2ff01.js",
+    "main.css": "/camille_sulpice_therapie/static/css/main.5861ce5a.css",
+    "main.js": "/camille_sulpice_therapie/static/js/main.5e3a2e21.js",
     "static/js/787.09a9dbaa.chunk.js": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js",
     "static/media/Dépression.png": "/camille_sulpice_therapie/static/media/Dépression.c3a7b58476522c82ab46.png",
     "static/media/Maladie.png": "/camille_sulpice_therapie/static/media/Maladie.459e57965109bcc1e977.png",
@@ -10,12 +10,12 @@
     "static/media/Title_CS.png": "/camille_sulpice_therapie/static/media/Title_CS.956f0622a862709a7792.png",
     "static/media/Logo_CS.png": "/camille_sulpice_therapie/static/media/Logo_CS.e117571b2c289a141f98.png",
     "index.html": "/camille_sulpice_therapie/index.html",
-    "main.d900ec37.css.map": "/camille_sulpice_therapie/static/css/main.d900ec37.css.map",
-    "main.63f2ff01.js.map": "/camille_sulpice_therapie/static/js/main.63f2ff01.js.map",
+    "main.5861ce5a.css.map": "/camille_sulpice_therapie/static/css/main.5861ce5a.css.map",
+    "main.5e3a2e21.js.map": "/camille_sulpice_therapie/static/js/main.5e3a2e21.js.map",
     "787.09a9dbaa.chunk.js.map": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d900ec37.css",
-    "static/js/main.63f2ff01.js"
+    "static/css/main.5861ce5a.css",
+    "static/js/main.5e3a2e21.js"
   ]
 }
