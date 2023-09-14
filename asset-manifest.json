@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/camille_sulpice_therapie/static/css/main.5861ce5a.css",
-    "main.js": "/camille_sulpice_therapie/static/js/main.5e3a2e21.js",
+    "main.css": "/camille_sulpice_therapie/static/css/main.8bf1d4f2.css",
+    "main.js": "/camille_sulpice_therapie/static/js/main.96caf4e2.js",
     "static/js/787.09a9dbaa.chunk.js": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js",
-    "static/media/Dépression.png": "/camille_sulpice_therapie/static/media/Dépression.c3a7b58476522c82ab46.png",
-    "static/media/Maladie.png": "/camille_sulpice_therapie/static/media/Maladie.459e57965109bcc1e977.png",
-    "static/media/Conflits.png": "/camille_sulpice_therapie/static/media/Conflits.2d8a2054835ae57bad08.png",
-    "static/media/Phobies.png": "/camille_sulpice_therapie/static/media/Phobies.a06e1d667716fd46578b.png",
+    "static/media/Profile.png": "/camille_sulpice_therapie/static/media/Profile.0accee10df8deebe49de.png",
+    "static/media/stepByStep.jpg": "/camille_sulpice_therapie/static/media/stepByStep.ae64dd9a5e0b5ec60556.jpg",
+    "static/media/grassGrow.jpg": "/camille_sulpice_therapie/static/media/grassGrow.7bf22cb8f643f4109e21.jpg",
+    "static/media/maladie.avif": "/camille_sulpice_therapie/static/media/maladie.5e04519ce0e930c09cca.avif",
+    "static/media/conflits.avif": "/camille_sulpice_therapie/static/media/conflits.b7921e2decc16ea96a68.avif",
+    "static/media/Dépression.avif": "/camille_sulpice_therapie/static/media/Dépression.028cfe2c9d16454dc4a9.avif",
+    "static/media/phobies.avif": "/camille_sulpice_therapie/static/media/phobies.882f0fa4601ecf59e86d.avif",
     "static/media/Title_CS.png": "/camille_sulpice_therapie/static/media/Title_CS.956f0622a862709a7792.png",
     "static/media/Logo_CS.png": "/camille_sulpice_therapie/static/media/Logo_CS.e117571b2c289a141f98.png",
     "index.html": "/camille_sulpice_therapie/index.html",
-    "main.5861ce5a.css.map": "/camille_sulpice_therapie/static/css/main.5861ce5a.css.map",
-    "main.5e3a2e21.js.map": "/camille_sulpice_therapie/static/js/main.5e3a2e21.js.map",
+    "main.8bf1d4f2.css.map": "/camille_sulpice_therapie/static/css/main.8bf1d4f2.css.map",
+    "main.96caf4e2.js.map": "/camille_sulpice_therapie/static/js/main.96caf4e2.js.map",
     "787.09a9dbaa.chunk.js.map": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5861ce5a.css",
-    "static/js/main.5e3a2e21.js"
+    "static/css/main.8bf1d4f2.css",
+    "static/js/main.96caf4e2.js"
   ]
 }
