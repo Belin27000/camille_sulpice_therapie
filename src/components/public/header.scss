@@ -1,0 +1,33 @@
+.Header {
+    background-color: var(--mainBlue);
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Logo {
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.TitleHeader {
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:500px) {
+    header div {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+
+    .TitleHeader {
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+.accompagnement {
+    width: 100%;
+
+    &-text {
+        margin: 1rem;
+    }
+
+    &-title {
+        background-color: var(--mainBlue);
+        padding: 1rem 0;
+        margin: 0;
+        color: var(--thirdWhite);
+    }
+
+    &-img {
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    &-text_price {
+        background-color: var(--mainBlue);
+        padding: 1rem 0;
+        color: var(--thirdWhite);
+    }
+}
+
+ul {
+    width: 100%;
+    padding: 0;
+
+
+    li {
+        width: 100%;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .accompagnement {
+        &-img {
+            width: 25%;
+        }
+    }
+}

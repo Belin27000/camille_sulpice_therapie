@@ -1,0 +1,22 @@
+.about {
+    width: 100%;
+
+    &-text {
+        margin: 1rem;
+        line-height: 2rem;
+    }
+
+    &-title {
+        background-color: var(--mainBlue);
+        padding: 1rem 0;
+        margin: 0;
+        color: var(--thirdWhite);
+    }
+
+    &-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}

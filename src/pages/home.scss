@@ -1,0 +1,262 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+
+    &-intro {
+        // font-size: .75rem;
+        width: 100%;
+
+        .quote {
+            background-color: var(--mainBlue);
+            padding: 1rem 0;
+            margin: 0;
+            color: var(--thirdWhite);
+            font-size: 1.5rem;
+
+        }
+
+        p {
+            margin: 1.5rem;
+
+        }
+    }
+}
+
+.difficulty {
+    font-size: 1rem;
+    margin: 0 1rem;
+
+    &-head {
+        background: var(--mainBlue);
+        color: var(--thirdWhite);
+        margin: 0;
+        padding: 0 2rem;
+        // font-size: 1rem;
+
+        p {
+            margin: 0;
+            padding: 1rem;
+        }
+    }
+}
+
+.damier {
+    background-color: var(--secondaryBeige);
+
+    &-Left,
+    &-Right {
+        width: 100%;
+    }
+
+
+    .conflict,
+    .despress,
+    .Phobies,
+    .Disease {
+        display: flex;
+        width: 100%;
+
+        &-Pic {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &-Des {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.more {
+    margin: 1.5rem;
+
+    a {
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .damier {
+        display: flex;
+
+        &-Left,
+        &-Right {
+            width: 50%;
+        }
+    }
+}
+
+// /* .HomeIntro {
+//     display: flex;
+//     flex-direction: column;
+//     margin: 0 2rem;
+// } */
+
+// .HomeIntro * {
+//     text-align: start;
+//     margin: 2rem 0;
+//     font-size: 1.5rem;
+// }
+
+// .quote {
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     margin: 1rem 0;
+// }
+
+// .quote p {
+//     color: var(--thirdWhite);
+//     background: var(--mainBlue);
+//     width: 37%;
+// }
+
+// .textHightLight {
+//     color: var(--mainBlue);
+//     font-weight: bold;
+// }
+
+// .difficulty {
+//     background: var(--mainBlue);
+//     margin: 0 2rem;
+// }
+
+// .difficultyHead {
+//     color: var(--thirdWhite);
+//     margin: 0;
+//     padding: 0 2rem;
+//     font-size: 2rem;
+// }
+
+
+// .damier {
+//     display: flex;
+
+//     &-Left,
+//     &-Right {
+//         width: 50%;
+//     }
+// }
+
+// .conflict,
+// .despress,
+// .Phobies,
+// .Disease {
+//     width: 100%;
+//     display: flex;
+//     margin: 0;
+//     background: var(--secondaryBeige);
+//     color: var(--mainBlue);
+// }
+
+// .conflictPic,
+// .conflictDes,
+// .despresstPic,
+// .despressDes,
+// .PhobiesPic,
+// .PhobiesDes,
+// .DiseasePic,
+// .DiseaseDes {
+//     width: 50%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+// }
+
+// .TitleDifficulties {
+//     font-size: 1.5rem;
+//     font-weight: bold;
+// }
+
+
+// .conflictPic img,
+// .despresstPic img,
+// .PhobiesPic img,
+// .DiseasePic img {
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .more {
+//     font-size: 1.7rem;
+//     display: flex;
+//     align-items: center;
+// }
+
+// .more a {
+//     margin-left: 2rem;
+//     color: var(--mainBlue);
+//     text-decoration: none;
+// }
+
+// @media screen and (max-width:1024px) {
+
+//     .HomeIntro *,
+//     .difficulty *,
+//     .more {
+//         font-size: 1.3rem;
+//     }
+
+//     .quote p {
+//         margin: 0;
+//     }
+
+//     .damierGlobal {
+//         flex-direction: column;
+//     }
+
+//     .damierLeft,
+//     .damierRight {
+//         width: 100%;
+//     }
+
+
+// }
+
+// @media screen and (max-width:769px) {
+
+//     .HomeIntro * {
+//         font-size: 1rem;
+//     }
+
+//     .more {
+//         display: initial;
+//         font-size: 1rem;
+//     }
+// }
+
+// @media screen and (max-width:500px) {
+
+//     .HomeIntro *,
+//     .more {
+//         font-size: .75rem;
+//     }
+
+//     .difficulty * {
+//         font-size: 1rem;
+//     }
+
+//     .quote {
+//         border-radius: 10px;
+//     }
+
+//     .quote p {
+//         font-size: 1rem;
+//         width: 35%;
+//         padding: 1rem;
+//         text-align: center;
+//     }
+// }

@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Home from '@/pages/Home.js';
 import Contact from '@/pages/Contact.js';
 import Endometriose from '@/pages/Endometriose.js';
-import Apropos from '@/pages/Apropos.js';
-import Accompagnement from '@/pages/Accompagnement.js';
+import Apropos from '@/pages/About/Apropos.js';
+import Accompagnement from '@/pages/Accompagnement/Accompagnement.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Error from '@/_utils/Error.js';
 import Layout from '@/Layouts/Layout.js';

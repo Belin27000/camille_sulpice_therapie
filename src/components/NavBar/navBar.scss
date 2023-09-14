@@ -1,0 +1,146 @@
+nav {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.list {
+    list-style-type: none;
+    background: var(--mainBlue);
+    padding: 0;
+    /* background: linear-gradient(to bottom, var(--mainBlue), var(--fourthpurple)); */
+    /* background: linear-gradient(45deg, rgb(156, 14, 156), midnightBlue); */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    position: relative;
+    /* margin: .5rem 0; */
+    margin: 0;
+}
+
+li {
+    /* margin-right: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 1rem 0; */
+    position: relative;
+    width: 20%;
+}
+
+.list a {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--secondaryBeige);
+    text-decoration: none;
+    /* height: 100%; */
+    padding: 1rem 0;
+}
+
+.list li:hover,
+.list li:hover a {
+    color: var(--mainBlue);
+    background-color: var(--secondaryBeige);
+}
+
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+
+@media screen and (max-width:1750px) {
+    .list a {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    nav {
+        background: transparent;
+    }
+
+    nav .list {
+        margin: 0;
+    }
+
+    .list a {
+        font-size: .75rem;
+    }
+
+}
+
+@media screen and (max-width:769px) {
+    nav {
+        height: 50px;
+        background: transparent;
+        position: absolute;
+        top: 0;
+
+    }
+
+    /* nav .list {
+        margin: 0;
+        padding: 0;
+    } */
+    .list {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        z-index: 2;
+    }
+
+    .list li {
+        width: 100%;
+        border-top: 1px solid#fff;
+        text-align: center;
+        margin-right: 0px;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+
+    .list ul {
+        list-style-type: none;
+        line-height: 2.5rem;
+        padding: 0;
+    }
+
+    .list a {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        display: block;
+        z-index: 3;
+    }
+
+    .iconMenu {
+        display: none;
+        fill: var(--thirdWhite);
+    }
+
+    .iconMenu.isActive {
+        // fill: var(--mainBlue);
+        display: block;
+        font-size: 2rem;
+    }
+
+    .closeIconMenu {
+        display: block;
+        font-size: 2rem;
+        fill: var(--thirdWhite);
+    }
+
+}

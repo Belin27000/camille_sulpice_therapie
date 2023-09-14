@@ -1,9 +1,9 @@
 import React from 'react';
-import conflict from '@/assets/images/Conflits.png'
-import despress from '@/assets/images/Dépression.png'
-import Phobies from '@/assets/images/Phobies.png'
-import Disease from '@/assets/images/Maladie.png'
-import '@/pages/home.css'
+import conflict from '@/assets/images/conflits.avif'
+import despress from '@/assets/images/Dépression.avif'
+import Phobies from '@/assets/images/phobies.avif'
+import Disease from '@/assets/images/maladie.avif'
+import '@/pages/home.scss'
 import { useTypingeffect } from '../hooks/typing-effect.js';
 import { Link } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ const Home = () => {
     const text = useTypingeffect(" \"La folie c'est de faire tout le temps la même chose et de s'attendre à un résultat différent\" A.Einstein", 125);
     return (
         <div className='Home'>
-            <section className='HomeIntro'>
+            <section className='Home-intro'>
                 <blockquote className='quote'>
                     <p>{text}</p>
                 </blockquote>
@@ -27,44 +27,44 @@ const Home = () => {
                 </p>
             </section>
             <section className="difficulty">
-                <div className="difficultyHead">
+                <div className="difficulty-head">
                     <p>Vous rencontrez une difficulté de vie ou un problème ? Vous avez tout essayer ? Vous vous sentez coincé dans une situation, épuisé et avez l’impression que rien ne pourra changer ?</p>
                 </div>
-                <div className="damierGlobal">
-                    <div className="damierLeft">
+                <div className="damier">
+                    <div className="damier-Left">
 
                         <div className="conflict">
-                            <div className="conflictPic">
-                                <img src={conflict} alt='conflits relationnels' />
+                            <div className="conflict-Pic">
+                                <img src={conflict} alt='conflits-relationnels' />
                             </div>
-                            <div className="conflictDes">
+                            <div className="conflict-Des">
                                 <h3 className='TitleDifficulties'>CONFLITS RELATIONNELS PROFESSIONNELS OU PERSONNELS</h3>
                             </div>
                         </div>
                         <div className="despress">
-                            <div className="despressDes">
+                            <div className="despress-Des">
                                 <h3 className='TitleDifficulties'>DÉPRESSION, STRESS, ANXIÉTÉ</h3>
                             </div>
-                            <div className="despresstPic">
+                            <div className="despress-Pic">
                                 <img src={despress} alt='depression' />
                             </div>
                         </div>
                     </div>
-                    <div className="damierRight">
+                    <div className="damier-Right">
 
                         <div className="Phobies">
-                            <div className="PhobiesPic">
+                            <div className="Phobies-Pic">
                                 <img src={Phobies} alt='peur et phobies' />
                             </div>
-                            <div className="PhobiesDes">
+                            <div className="Phobies-Des">
                                 <h3 className='TitleDifficulties'>PEURS ET PHOBIES</h3>
                             </div>
                         </div>
                         <div className="Disease">
-                            <div className="DiseaseDes">
+                            <div className="Disease-Des">
                                 <h3 className='TitleDifficulties'>MALADIES CHRONIQUES</h3>
                             </div>
-                            <div className="DiseasePic">
+                            <div className="Disease-Pic">
                                 <img src={Disease} alt='maladie chronique' />
                             </div>
                         </div>
