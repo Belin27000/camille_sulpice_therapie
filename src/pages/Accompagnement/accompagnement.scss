@@ -12,8 +12,16 @@
         color: var(--thirdWhite);
     }
 
+    &-imgContainer {
+        width: 100%;
+        border-radius: 10px;
+        height: 15%;
+        object-fit: cover;
+    }
+
     &-img {
-        width: 50%;
+        width: 25%;
+        height: 100%;
         border-radius: 10px;
     }
 

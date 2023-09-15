@@ -1,8 +1,8 @@
 import React from 'react';
-import conflict from '@/assets/images/conflits.avif'
-import despress from '@/assets/images/Dépression.avif'
-import Phobies from '@/assets/images/phobies.avif'
-import Disease from '@/assets/images/maladie.avif'
+import conflict from '@/assets/images/damier/conflits.avif'
+import despress from '@/assets/images/damier/Dépression.avif'
+import Phobies from '@/assets/images/damier/phobies.avif'
+import Disease from '@/assets/images/damier/maladie.avif'
 import '@/pages/home.scss'
 import { useTypingeffect } from '../hooks/typing-effect.js';
 import { Link } from 'react-router-dom';
@@ -36,7 +36,7 @@ const Home = () => {
 
                         <div className="conflict">
                             <div className="conflict-Pic">
-                                <img src={conflict} alt='conflits-relationnels' />
+                                <img src={conflict} width='500' height='500' alt='conflits-relationnels' />
                             </div>
                             <div className="conflict-Des">
                                 <h2 className='TitleDifficulties'>CONFLITS RELATIONNELS PROFESSIONNELS OU PERSONNELS</h2>
@@ -47,7 +47,7 @@ const Home = () => {
                                 <h2 className='TitleDifficulties'>DÉPRESSION, STRESS, ANXIÉTÉ</h2>
                             </div>
                             <div className="despress-Pic">
-                                <img src={despress} alt='depression' />
+                                <img src={despress} width='500px' height='500px' alt='depression' />
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const Home = () => {
 
                         <div className="Phobies">
                             <div className="Phobies-Pic">
-                                <img src={Phobies} alt='peur et phobies' />
+                                <img src={Phobies} width='500px' height='500px' alt='peur et phobies' />
                             </div>
                             <div className="Phobies-Des">
                                 <h2 className='TitleDifficulties'>PEURS ET PHOBIES</h2>
@@ -66,7 +66,7 @@ const Home = () => {
                                 <h2 className='TitleDifficulties'>MALADIES CHRONIQUES</h2>
                             </div>
                             <div className="Disease-Pic">
-                                <img src={Disease} alt='maladie chronique' />
+                                <img src={Disease} width='500px' height='500px' alt='maladie chronique' />
                             </div>
                         </div>
                     </div>

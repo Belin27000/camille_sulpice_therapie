@@ -1,7 +1,7 @@
 import React from 'react';
-import CSulpice_logo from '@/assets/Logo_CS.webp'
-import Title from '@/assets/images/Title_CS_wcarza_c_scale,w_500.webp'
-import TitleBig from '@/assets/images/Title_CS_wcarza_c_scale,w_1584.webp'
+import CSulpice_logo from '@/assets/images/logo/Logo_CS_small.webp'
+import Title from '@/assets/images/Title/Title_CS_nlh8su_c_scale,w_764.webp'
+import TitleBig from '@/assets/images/Title/Title_CS_wcarza_c_scale,w_1584.webp'
 import '@/components/public/header.scss'
 import NavBar from '@/components/NavBar/NavBar.js';
 
@@ -10,8 +10,22 @@ const Header = () => {
 
         <header className='Header'>
             <div>
-                <img className='Logo' src={CSulpice_logo} alt='logo Camille Sulpice' />
-                <img className='TitleHeader' src={TitleBig} srcSet={`${Title} 800w,${TitleBig} 1000w`} sizes="(max-width: 1584px) 100vw, 1584px" alt="logo thérapie brève stratégique et systémique" />
+                <img className='Logo' src={CSulpice_logo}
+                    size="(max-width: 500px) 100vw, 500px"
+                    srcset=
+                    {`${CSulpice_logo} 500w`}
+                    width='500'
+                    height='500'
+                    alt='logo Camille Sulpice' />
+                <img className='TitleHeader' src={TitleBig}
+                    sizes="(min-width: 964px) 1200vw,
+                    (min-width: 500px) 764px, 100vw"
+                    srcSet=
+                    {`${Title} 764w,
+                ${TitleBig} 1584w`}
+                    width='1584'
+                    height='396'
+                    alt="logo thérapie brève stratégique et systémique" />
             </div>
             <NavBar />
 
