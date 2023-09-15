@@ -12,8 +12,9 @@ const Home = () => {
     const text = useTypingeffect(" \"La folie c'est de faire tout le temps la même chose et de s'attendre à un résultat différent\" A.Einstein", 125);
     return (
         <div className='Home'>
-            <section className='Home-intro'>
-                <blockquote className='quote'>
+            <h1 className='sr-only' tabIndex={0}>camille sulpice therapie brève fontainebleau en seine et marne - accueil</h1>
+            <section className='Home-intro' tabIndex={0}>
+                <blockquote className='quote' tabIndex={0} >
                     <p>{text}</p>
                 </blockquote>
                 <p>Cette citation résume à elle seule très bien la thérapie brève systémique et stratégique !
@@ -27,7 +28,7 @@ const Home = () => {
                 </p>
             </section>
             <section className="difficulty">
-                <div className="difficulty-head">
+                <div className="difficulty-head" tabIndex={0}>
                     <p>Vous rencontrez une difficulté de vie ou un problème ? Vous avez tout essayer ? Vous vous sentez coincé dans une situation, épuisé et avez l’impression que rien ne pourra changer ?</p>
                 </div>
                 <div className="damier">
@@ -38,12 +39,12 @@ const Home = () => {
                                 <img src={conflict} alt='conflits-relationnels' />
                             </div>
                             <div className="conflict-Des">
-                                <h3 className='TitleDifficulties'>CONFLITS RELATIONNELS PROFESSIONNELS OU PERSONNELS</h3>
+                                <h2 className='TitleDifficulties'>CONFLITS RELATIONNELS PROFESSIONNELS OU PERSONNELS</h2>
                             </div>
                         </div>
                         <div className="despress">
                             <div className="despress-Des">
-                                <h3 className='TitleDifficulties'>DÉPRESSION, STRESS, ANXIÉTÉ</h3>
+                                <h2 className='TitleDifficulties'>DÉPRESSION, STRESS, ANXIÉTÉ</h2>
                             </div>
                             <div className="despress-Pic">
                                 <img src={despress} alt='depression' />
@@ -57,12 +58,12 @@ const Home = () => {
                                 <img src={Phobies} alt='peur et phobies' />
                             </div>
                             <div className="Phobies-Des">
-                                <h3 className='TitleDifficulties'>PEURS ET PHOBIES</h3>
+                                <h2 className='TitleDifficulties'>PEURS ET PHOBIES</h2>
                             </div>
                         </div>
                         <div className="Disease">
                             <div className="Disease-Des">
-                                <h3 className='TitleDifficulties'>MALADIES CHRONIQUES</h3>
+                                <h2 className='TitleDifficulties'>MALADIES CHRONIQUES</h2>
                             </div>
                             <div className="Disease-Pic">
                                 <img src={Disease} alt='maladie chronique' />

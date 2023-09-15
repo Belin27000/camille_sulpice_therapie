@@ -1,6 +1,6 @@
 import React from 'react';
-import CSulpice_logo from '@/assets/Logo_CS.png'
-import Title from '@/assets/Title_CS.png'
+import CSulpice_logo from '@/assets/Logo_CS.webp'
+import Title from '@/assets/Title_CS.webp'
 import '@/components/public/header.scss'
 import NavBar from '@/components/NavBar/NavBar.js';
 

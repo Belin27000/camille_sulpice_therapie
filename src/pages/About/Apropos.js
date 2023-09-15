@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './aPropos.scss'
-import ProfilPic from '../../assets/images/Profile.png'
+import ProfilPic from '../../assets/images/Profile.webp'
 import { Link } from 'react-router-dom';
 
 const Apropos = () => {
-    const age = Date.now()
+
     return (
         <div className='about'>
             <h2 className='about-title'>Qui suis-je ?</h2>

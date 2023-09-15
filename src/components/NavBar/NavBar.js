@@ -27,7 +27,7 @@ const NavBar = () => {
         }
     }, [])
     return (
-        <nav>
+        <nav tabIndex={0}>
             {(toggleMenu || screenWidth > 769) && (
                 <ul className="list">
                     <li><Link to="/home" onClick={toggleNav} className="items">Accueil</Link></li>
