@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/camille_sulpice_therapie/static/css/main.4183dd08.css",
-    "main.js": "/camille_sulpice_therapie/static/js/main.e7bfc384.js",
+    "main.css": "/camille_sulpice_therapie/static/css/main.ce59053f.css",
+    "main.js": "/camille_sulpice_therapie/static/js/main.dba858c5.js",
     "static/js/787.09a9dbaa.chunk.js": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js",
     "static/media/Profile.webp": "/camille_sulpice_therapie/static/media/Profile.2c894ef7f2ff79106775.webp",
     "static/media/stepByStep.jpg": "/camille_sulpice_therapie/static/media/stepByStep.ae64dd9a5e0b5ec60556.jpg",
@@ -10,15 +10,16 @@
     "static/media/conflits.avif": "/camille_sulpice_therapie/static/media/conflits.b7921e2decc16ea96a68.avif",
     "static/media/Dépression.avif": "/camille_sulpice_therapie/static/media/Dépression.028cfe2c9d16454dc4a9.avif",
     "static/media/phobies.avif": "/camille_sulpice_therapie/static/media/phobies.882f0fa4601ecf59e86d.avif",
-    "static/media/Title_CS.webp": "/camille_sulpice_therapie/static/media/Title_CS.9f81efdec66bc6a55ed6.webp",
+    "static/media/Title_CS_wcarza_c_scale,w_1584.webp": "/camille_sulpice_therapie/static/media/Title_CS_wcarza_c_scale,w_1584.8092121c948e0e12bf85.webp",
     "static/media/Logo_CS.webp": "/camille_sulpice_therapie/static/media/Logo_CS.fe62adaaafb1d92d732d.webp",
+    "static/media/Title_CS_wcarza_c_scale,w_500.webp": "/camille_sulpice_therapie/static/media/Title_CS_wcarza_c_scale,w_500.0bf14dd7136b0ee71c0d.webp",
     "index.html": "/camille_sulpice_therapie/index.html",
-    "main.4183dd08.css.map": "/camille_sulpice_therapie/static/css/main.4183dd08.css.map",
-    "main.e7bfc384.js.map": "/camille_sulpice_therapie/static/js/main.e7bfc384.js.map",
+    "main.ce59053f.css.map": "/camille_sulpice_therapie/static/css/main.ce59053f.css.map",
+    "main.dba858c5.js.map": "/camille_sulpice_therapie/static/js/main.dba858c5.js.map",
     "787.09a9dbaa.chunk.js.map": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4183dd08.css",
-    "static/js/main.e7bfc384.js"
+    "static/css/main.ce59053f.css",
+    "static/js/main.dba858c5.js"
   ]
 }
