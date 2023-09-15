@@ -30,16 +30,18 @@
         padding: 1rem 0;
         color: var(--thirdWhite);
     }
-}
 
-ul {
-    width: 100%;
-    padding: 0;
+    &-list {
+        // width: 100%;
+        padding: 1rem;
 
 
-    li {
-        width: 100%;
-        line-height: 2rem;
+        li {
+            width: 100%;
+            line-height: 2rem;
+            display: list-item;
+            list-style-position: inside;
+        }
     }
 }
 

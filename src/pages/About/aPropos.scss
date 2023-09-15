@@ -19,4 +19,15 @@
         border-radius: 50%;
         object-fit: cover;
     }
+
+    &-list {
+
+        li {
+            width: 100%;
+            display: list-item;
+            list-style-position: inside;
+            line-height: 2rem;
+
+        }
+    }
 }

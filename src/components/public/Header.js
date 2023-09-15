@@ -11,7 +11,7 @@ const Header = () => {
         <header className='Header'>
             <div>
                 <img className='Logo' src={CSulpice_logo}
-                    size="(max-width: 500px) 100vw, 500px"
+                    sizes="(max-width: 500px) 100vw, 500px"
                     srcset=
                     {`${CSulpice_logo} 500w`}
                     width='500'

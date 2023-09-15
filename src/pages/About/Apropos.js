@@ -1,6 +1,12 @@
 import React from 'react';
 import './aPropos.scss'
-import ProfilPic from '../../assets/images/Profile.webp'
+import ProfilPicVs from '../../assets/images/profil/Profile_verySmall_200.webp'
+import ProfilPicS from '../../assets/images/profil/Profile_small_768.webp'
+import ProfilPicM from '../../assets/images/profil/Profile_medium_998.webp'
+import ProfilPicL from '../../assets/images/profil/Profile_large_1262.webp'
+import ProfilPicEl from '../../assets/images/profil/Profile_extraLarge_1507.webp'
+import ProfilPicSl from '../../assets/images/profil/Profile_superLarge_2031.webp'
+import ProfilPicXxL from '../../assets/images/profil/Profile_xxxxL_2100.webp'
 import { Link } from 'react-router-dom';
 
 const Apropos = () => {
@@ -9,9 +15,21 @@ const Apropos = () => {
         <div className='about'>
             <h2 className='about-title'>Qui suis-je ?</h2>
             <p className="about-text">Je suis Camille Sulpice, j’ai 37 ans. </p>
-            <img src={ProfilPic} alt="" className="about-img" />
+
+            <img className="about-img"
+                src={ProfilPicXxL}
+                sizes="(max-width: 2100px) 100vw, 2100px"
+                srcSet={`
+                ${ProfilPicVs} 200w,
+                ${ProfilPicS} 768w,
+                ${ProfilPicM} 998w,
+                ${ProfilPicL} 1262w,
+                ${ProfilPicEl} 1507w,
+                ${ProfilPicSl} 2031w,
+                ${ProfilPicSl} 2100w`}
+                alt="Portrait de Camille Sulpice" />
             <h3>Formations :</h3>
-            <ul>
+            <ul className='about-list'>
                 <li>Formation de formateurs / Ingénierie de formation - 2020 Attribut conseils</li>
                 <li>ADVP et la démarche éducative expérientielle en orientation - 2020 Le patio formation</li>
                 <li>Clinicien de la relation Niveau fondement - 2022-2023 LACT</li>

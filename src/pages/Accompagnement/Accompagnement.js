@@ -19,9 +19,9 @@ const Accompagnement = () => {
                     sizes="(max-width: 1280px) 100vw, 1280px"
                     srcSet={`
                 ${stepByStepVs} 300w,
-                ${stepByStepS}  983w,
-                ${stepByStepM}  1232w,
-                ${stepByStepL}  1280w`}
+                ${stepByStepS} 983w,
+                ${stepByStepM} 1232w,
+                ${stepByStepL} 1280w`}
                     width='983'
                     height='655'
                     alt="homme montant un escalier step by step" className="accompagnement-img" />
@@ -45,7 +45,7 @@ const Accompagnement = () => {
             </p>
             <p className="accompagnement-text_price">1 séance individuelle de thérapie brève : 60€ </p>
             <p className="accompagnement-text">J'ai pris rendez-vous, comment cela va se passer ? </p>
-            <ul>
+            <ul className='accompagnement-list'>
                 <li>Le règlement par virement ou paypal vous sera demandé avant le rendez-vous</li>
                 <li>Vous recevez un lien pour rejoindre la visioconférence le jour du rendez-vous.</li>
                 <li>La veille ou le jour J de votre rendez-vous je vous envoi un questionnaire en ligne à remplir afin de récolter des informations sur la manière dont vous vous sentez avant d’aborder votre séance.</li>
