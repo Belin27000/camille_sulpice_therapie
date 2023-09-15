@@ -1,7 +1,7 @@
 import './App.scss';
 import Home from '@/pages/Home.js';
 import Contact from '@/pages/Contact.js';
-import Endometriose from '@/pages/Endometriose.js';
+import Endometriose from '@/pages/Endometriose/Endometriose.js';
 import Apropos from '@/pages/About/Apropos.js';
 import Accompagnement from '@/pages/Accompagnement/Accompagnement.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

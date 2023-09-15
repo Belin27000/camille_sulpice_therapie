@@ -31,3 +31,13 @@
         }
     }
 }
+
+@media (min-width: 720px) {
+    .about {
+        &-img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+}

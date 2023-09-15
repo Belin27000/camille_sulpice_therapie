@@ -27,6 +27,8 @@ const Apropos = () => {
                 ${ProfilPicEl} 1507w,
                 ${ProfilPicSl} 2031w,
                 ${ProfilPicSl} 2100w`}
+                width='1469'
+                height='1469'
                 alt="Portrait de Camille Sulpice" />
             <h3>Formations :</h3>
             <ul className='about-list'>

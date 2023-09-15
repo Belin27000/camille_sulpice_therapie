@@ -1,0 +1,90 @@
+.endo {
+    margin-bottom: 1rem;
+
+    &-title {
+        background-color: var(--mainBlue);
+        padding: 1rem 0;
+        margin: 0;
+        color: var(--thirdWhite);
+    }
+
+    &-subtitle {
+        color: var(--mainBlue);
+    }
+
+    &-bande {
+        width: 100%;
+        height: auto;
+    }
+
+    &-problem,
+    &-despress,
+    &-infertility {
+        margin-bottom: 3rem;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        h4 {
+            font-size: 1.5rem;
+            color: var(--mainBlue);
+        }
+
+    }
+}
+
+@media screen and (min-width:764px) {
+    .endo {
+
+        &-problem,
+        &-despress,
+        &-infertility {
+            display: flex;
+            width: 100%;
+
+            img {
+                width: 50%;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                margin-left: 1rem;
+
+                p {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:920px) {
+    .endo {
+        &-text {
+            margin: 0 1rem;
+        }
+
+        &-problem,
+        &-despress,
+        &-infertility {
+            display: flex;
+            width: 70%;
+            font-size: 1.5rem;
+            margin-left: 2rem;
+
+            img {
+                width: 30%;
+                height: 10%;
+            }
+
+            div {
+                width: 50%;
+            }
+        }
+    }
+}
