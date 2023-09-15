@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/camille_sulpice_therapie/static/css/main.ce59053f.css",
-    "main.js": "/camille_sulpice_therapie/static/js/main.dba858c5.js",
+    "main.css": "/camille_sulpice_therapie/static/css/main.aa06af1c.css",
+    "main.js": "/camille_sulpice_therapie/static/js/main.8a7197a2.js",
     "static/js/787.09a9dbaa.chunk.js": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js",
     "static/media/Profile.webp": "/camille_sulpice_therapie/static/media/Profile.2c894ef7f2ff79106775.webp",
-    "static/media/stepByStep.jpg": "/camille_sulpice_therapie/static/media/stepByStep.ae64dd9a5e0b5ec60556.jpg",
-    "static/media/grassGrow.jpg": "/camille_sulpice_therapie/static/media/grassGrow.7bf22cb8f643f4109e21.jpg",
+    "static/media/stepBystep_large_1280.avif": "/camille_sulpice_therapie/static/media/stepBystep_large_1280.4ce09c0bf7019398df81.avif",
+    "static/media/stepBystep_medium_1232.avif": "/camille_sulpice_therapie/static/media/stepBystep_medium_1232.ddf97d6e1c46e8e17ea8.avif",
     "static/media/maladie.avif": "/camille_sulpice_therapie/static/media/maladie.5e04519ce0e930c09cca.avif",
     "static/media/conflits.avif": "/camille_sulpice_therapie/static/media/conflits.b7921e2decc16ea96a68.avif",
     "static/media/Dépression.avif": "/camille_sulpice_therapie/static/media/Dépression.028cfe2c9d16454dc4a9.avif",
     "static/media/phobies.avif": "/camille_sulpice_therapie/static/media/phobies.882f0fa4601ecf59e86d.avif",
+    "static/media/stepByStep_small_983.avif": "/camille_sulpice_therapie/static/media/stepByStep_small_983.c8a7b7c103b59a4f249d.avif",
+    "static/media/grassGrow_large_1280.avif": "/camille_sulpice_therapie/static/media/grassGrow_large_1280.124db4a1bd6dbec6f75f.avif",
+    "static/media/grassGrow_medium_1137.avif": "/camille_sulpice_therapie/static/media/grassGrow_medium_1137.aa56697b4bd39f742627.avif",
     "static/media/Title_CS_wcarza_c_scale,w_1584.webp": "/camille_sulpice_therapie/static/media/Title_CS_wcarza_c_scale,w_1584.8092121c948e0e12bf85.webp",
-    "static/media/Logo_CS.webp": "/camille_sulpice_therapie/static/media/Logo_CS.fe62adaaafb1d92d732d.webp",
-    "static/media/Title_CS_wcarza_c_scale,w_500.webp": "/camille_sulpice_therapie/static/media/Title_CS_wcarza_c_scale,w_500.0bf14dd7136b0ee71c0d.webp",
+    "static/media/stepByStep_verySmall_300.avif": "/camille_sulpice_therapie/static/media/stepByStep_verySmall_300.ce1773bd8bd14911d4cb.avif",
+    "static/media/Logo_CS_small.webp": "/camille_sulpice_therapie/static/media/Logo_CS_small.3f60c716629f40ec1d81.webp",
+    "static/media/Title_CS_nlh8su_c_scale,w_764.webp": "/camille_sulpice_therapie/static/media/Title_CS_nlh8su_c_scale,w_764.2d29667c834cc85404b4.webp",
+    "static/media/grassGrow_small_300.avif": "/camille_sulpice_therapie/static/media/grassGrow_small_300.79c7b10b7d957346b82b.avif",
     "index.html": "/camille_sulpice_therapie/index.html",
-    "main.ce59053f.css.map": "/camille_sulpice_therapie/static/css/main.ce59053f.css.map",
-    "main.dba858c5.js.map": "/camille_sulpice_therapie/static/js/main.dba858c5.js.map",
+    "main.aa06af1c.css.map": "/camille_sulpice_therapie/static/css/main.aa06af1c.css.map",
+    "main.8a7197a2.js.map": "/camille_sulpice_therapie/static/js/main.8a7197a2.js.map",
     "787.09a9dbaa.chunk.js.map": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce59053f.css",
-    "static/js/main.dba858c5.js"
+    "static/css/main.aa06af1c.css",
+    "static/js/main.8a7197a2.js"
   ]
 }
