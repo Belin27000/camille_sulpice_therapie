@@ -1,6 +1,6 @@
 import './App.scss';
 import Home from '@/pages/Home.js';
-import Contact from '@/pages/Contact.js';
+import Contact from '@/pages/Contact/Contact.js';
 import Endometriose from '@/pages/Endometriose/Endometriose.js';
 import Apropos from '@/pages/About/Apropos.js';
 import Accompagnement from '@/pages/Accompagnement/Accompagnement.js';

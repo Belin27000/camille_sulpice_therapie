@@ -18,10 +18,12 @@ import InfertilityM from '@/assets/images/EndoPictures/infertility/infertility_m
 import InfertilityL from '@/assets/images/EndoPictures/infertility/infertility_large_500.png'
 
 import './endometriose.scss'
+import { Link } from 'react-router-dom';
 
 const Endometriose = () => {
     return (
         <div className='endo'>
+            <h1 className='sr-only' tabIndex={0}>camille sulpice therapie brève fontainebleau en seine et marne - accueil</h1>
             <h2 className='endo-title'>Endometriose</h2>
             <img className='endo-bande'
                 sizes="(max-width: 1584px) 100vw, 1584px"
@@ -95,6 +97,10 @@ const Endometriose = () => {
                     <p>On sait que l’endométriose peut rendre la conception d’un enfant difficile mais qu’en est-il quand en plus le stress vient s’en mêler ? On connaît l’impact de la santé psychologique sur la fertilité. La thérapie brève peut vous aider dans un projet de procréation ou bien à mieux vivre avec l’infertilité.</p>
                 </div>
             </section>
+            <div className='endo-end'>
+                <p>Ce travail thérapeutique et cette approche peuvent vous aider dans votre vie avec l'endométriose. Vous êtes touchée par une autre maladie gynécologique ou bien chronique ? SOPK, adénomyose,  fibromyalgie, maladie de Crohn,...  </p>
+                <Link to="/contact">vous pouvez me contacter</Link>
+            </div>
         </div>
     );
 };

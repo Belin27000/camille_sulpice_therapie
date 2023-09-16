@@ -33,6 +33,10 @@
         }
 
     }
+
+    &-end a {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (min-width:764px) {
@@ -73,8 +77,8 @@
         &-despress,
         &-infertility {
             display: flex;
-            width: 70%;
-            font-size: 1.5rem;
+            // width: 70%;
+            font-size: 1.2rem;
             margin-left: 2rem;
 
             img {
@@ -83,7 +87,13 @@
             }
 
             div {
-                width: 50%;
+                display: flex;
+                width: 30%;
+                justify-content: space-evenly;
+
+                h4 {
+                    font-size: 2rem;
+                }
             }
         }
     }

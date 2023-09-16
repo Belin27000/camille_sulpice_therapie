@@ -11,6 +11,8 @@ import grassGrowS from '@/assets/images/grassGrows/grassGrow_small_300.avif'
 const Accompagnement = () => {
     return (
         <div className='accompagnement'>
+            <h1 className='sr-only' tabIndex={0}>camille sulpice therapie brève fontainebleau en seine et marne - accueil</h1>
+
             <h2 className='accompagnement-title'>Accompagnement</h2>
             <p className="accompagnement-text">L’accompagnement que je vous propose est basé sur le modèle de Palo Alto, ensemble nous définissons votre problème, nous étudions son fonctionnement et comment il se maintient puis nous définissons des objectifs à atteindre. </p>
             <div className='accompagnement-imgContainer'>
