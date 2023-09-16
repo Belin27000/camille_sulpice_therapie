@@ -1,21 +1,21 @@
 import React from 'react';
-import BandeVs from '@/assets/images/EndoPictures/Bandeau/Bandeau_verySmall_200.png'
-import BandeS from '@/assets/images/EndoPictures/Bandeau/Bandeau_small_826.png'
-import BandeM from '@/assets/images/EndoPictures/Bandeau/Bandeau_medium_1193.png'
-import BandeL from '@/assets/images/EndoPictures/Bandeau/Bandeau_large_1499.png'
-import BandeXl from '@/assets/images/EndoPictures/Bandeau/Bandeau_Xl_1584.png'
+import BandeVs from '@/assets/images/EndoPictures/Bandeau/Bandeau_verySmall_200.webp'
+import BandeS from '@/assets/images/EndoPictures/Bandeau/Bandeau_small_826.webp'
+import BandeM from '@/assets/images/EndoPictures/Bandeau/Bandeau_medium_1193.webp'
+import BandeL from '@/assets/images/EndoPictures/Bandeau/Bandeau_large_1499.webp'
+import BandeXl from '@/assets/images/EndoPictures/Bandeau/Bandeau_Xl_1584.webp'
 
-import ProblemS from "@/assets/images/EndoPictures/problem/problem_small_200.png"
-import ProblemM from "@/assets/images/EndoPictures/problem/problem_medium_500.png"
-import ProblemL from "@/assets/images/EndoPictures/problem/problem_large_458.png"
+import ProblemS from "@/assets/images/EndoPictures/problem/problem_small_200.avif"
+import ProblemM from "@/assets/images/EndoPictures/problem/problem_medium_500.avif"
+import ProblemL from "@/assets/images/EndoPictures/problem/problem_large_458.avif"
 
-import DespressS from '@/assets/images/EndoPictures/despress/despress_small_200.png'
-import DespressM from '@/assets/images/EndoPictures/despress/despress_medium_448.png'
-import DespressL from '@/assets/images/EndoPictures/despress/despress_large_500.png'
+import DespressS from '@/assets/images/EndoPictures/despress/despress_small_200.webp'
+import DespressM from '@/assets/images/EndoPictures/despress/despress_medium_448.webp'
+import DespressL from '@/assets/images/EndoPictures/despress/despress_large_500.webp'
 
-import InfertilityS from '@/assets/images/EndoPictures/infertility/infertility_small_200.png'
-import InfertilityM from '@/assets/images/EndoPictures/infertility/infertility_medium_447.png'
-import InfertilityL from '@/assets/images/EndoPictures/infertility/infertility_large_500.png'
+import InfertilityS from '@/assets/images/EndoPictures/infertility/infertility_small_200.webp'
+import InfertilityM from '@/assets/images/EndoPictures/infertility/infertility_medium_447.webp'
+import InfertilityL from '@/assets/images/EndoPictures/infertility/infertility_large_500.webp'
 
 import './endometriose.scss'
 import { Link } from 'react-router-dom';
