@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/camille_sulpice_therapie/static/css/main.824cbb42.css",
-    "main.js": "/camille_sulpice_therapie/static/js/main.4553316e.js",
+    "main.js": "/camille_sulpice_therapie/static/js/main.11439f5f.js",
     "static/js/787.09a9dbaa.chunk.js": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js",
     "static/media/Profile_xxxxL_2100.webp": "/camille_sulpice_therapie/static/media/Profile_xxxxL_2100.eb5a37faf57b8944a42d.webp",
     "static/media/Profile_superLarge_2031.webp": "/camille_sulpice_therapie/static/media/Profile_superLarge_2031.757088d13924dd286ce8.webp",
@@ -40,11 +40,11 @@
     "static/media/problem_small_200.avif": "/camille_sulpice_therapie/static/media/problem_small_200.88804793d9f031c54d64.avif",
     "index.html": "/camille_sulpice_therapie/index.html",
     "main.824cbb42.css.map": "/camille_sulpice_therapie/static/css/main.824cbb42.css.map",
-    "main.4553316e.js.map": "/camille_sulpice_therapie/static/js/main.4553316e.js.map",
+    "main.11439f5f.js.map": "/camille_sulpice_therapie/static/js/main.11439f5f.js.map",
     "787.09a9dbaa.chunk.js.map": "/camille_sulpice_therapie/static/js/787.09a9dbaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.824cbb42.css",
-    "static/js/main.4553316e.js"
+    "static/js/main.11439f5f.js"
   ]
 }
