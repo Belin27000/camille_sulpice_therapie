@@ -26,12 +26,13 @@
             margin: 1rem 0;
 
             label {
-                margin: .5rem 0;
+                margin: 1rem 0;
                 color: var(--mainBlue);
             }
 
             input {
                 line-height: 1.5rem;
+                border-radius: 5px;
             }
 
             #Message {
@@ -68,6 +69,7 @@
                     label {
                         margin: 0 2rem;
                         text-align: initial;
+                        padding: .5rem 0;
                     }
                 }
 

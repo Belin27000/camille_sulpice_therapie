@@ -27,7 +27,7 @@ const Contact = () => {
                     <div>
                         <div className="input-wrapper">
                             <label htmlFor="phone">Téléphone</label>
-                            <input type="tel" id="tel" name="phone" />
+                            <input type="tel" id="phone" name="phone" />
                         </div>
                         <div className="input-wrapper">
                             <label htmlFor="email">Mail</label>
