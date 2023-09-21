@@ -5,7 +5,6 @@ import Phobies from '@/assets/images/damier/phobies.avif'
 import Disease from '@/assets/images/damier/maladie.avif'
 import '@/pages/home.scss'
 import { useTypingeffect } from '../hooks/typing-effect.js';
-import { Link } from 'react-router-dom';
 import Button from '../components/Button/Button.js';
 
 const Home = () => {
@@ -30,7 +29,11 @@ const Home = () => {
             </section>
             <section className="difficulty">
                 <div className="difficulty-head" tabIndex={0}>
-                    <p>Vous rencontrez une difficulté de vie ou un problème ? Vous avez tout essayer ? Vous vous sentez coincé dans une situation, épuisé et avez l’impression que rien ne pourra changer ?</p>
+                    <ul>
+                        <li>Vous rencontrez une difficulté de vie ou un problème ? </li>
+                        <li>Vous avez tout essayer ? </li>
+                        <li>Vous vous sentez coincé dans une situation, épuisé et avez l’impression que rien ne pourra changer ?</li>
+                    </ul>
                 </div>
                 <div className="damier">
                     <div className="damier-Left">
@@ -75,7 +78,7 @@ const Home = () => {
             </section>
             <div className="more">
                 <p>La thérapie brève peut vous aider à surmonter ces difficultés.</p>
-                <Button name={'Plus d\'informations'} path={"/accompagnement"} />
+                <Button name={'Plus d\'informations'} path={"/accompagnement#ancrage"} href={"#ancrage"} />
             </div>
         </div>
     );

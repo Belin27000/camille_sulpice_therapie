@@ -37,7 +37,6 @@
 
         p {
             margin: 1.5rem;
-
         }
     }
 }
@@ -56,7 +55,20 @@
         color: var(--thirdWhite);
         margin: 0;
         padding: 0 2rem;
+
         // font-size: 1rem;
+        ul {
+            width: 100%;
+            padding: 1rem 0;
+            margin: 0;
+
+            li {
+                list-style-position: inside;
+                display: list-item;
+                width: 100%;
+                font-size: 1rem;
+            }
+        }
 
         p {
             margin: 0;
@@ -111,6 +123,17 @@
 }
 
 @media screen and (min-width:769px) {
+    .Home-intro p {
+        text-align: initial;
+
+    }
+
+    .difficulty-head ul {
+        li {
+            font-size: 1.5rem;
+        }
+    }
+
     .damier {
         display: flex;
 

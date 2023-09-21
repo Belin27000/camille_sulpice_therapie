@@ -7,7 +7,6 @@ import ProfilPicL from '../../assets/images/profil/Profile_large_1262.webp'
 import ProfilPicEl from '../../assets/images/profil/Profile_extraLarge_1507.webp'
 import ProfilPicSl from '../../assets/images/profil/Profile_superLarge_2031.webp'
 import ProfilPicXxL from '../../assets/images/profil/Profile_xxxxL_2100.webp'
-import { Link } from 'react-router-dom';
 import Button from '../../components/Button/Button.js';
 
 const Apropos = () => {

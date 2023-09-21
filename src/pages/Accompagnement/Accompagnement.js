@@ -14,7 +14,7 @@ const Accompagnement = () => {
         <div className='accompagnement'>
             <h1 className='sr-only' tabIndex={0}>camille sulpice therapie brève fontainebleau en seine et marne - accueil</h1>
 
-            <h2 className='accompagnement-title'>Accompagnement</h2>
+            <h2 className='accompagnement-title' id='ancrage'>Accompagnement</h2>
             <p className="accompagnement-text">L’accompagnement que je vous propose est basé sur le modèle de Palo Alto, ensemble nous définissons votre problème, nous étudions son fonctionnement et comment il se maintient puis nous définissons des objectifs à atteindre. </p>
             <div className='accompagnement-imgContainer'>
                 <img
@@ -47,7 +47,7 @@ const Accompagnement = () => {
             <p className="accompagnement-text">Afin de rester accessible au plus grand nombre, je vous propose des séances en visio via l’application Zoom, entièrement gratuite. Ces séances durent entre 45 minutes et 1 heure.
             </p>
             <p className="accompagnement-text_price">1 séance individuelle de thérapie brève : 60€ </p>
-            <p className="accompagnement-text">J'ai pris rendez-vous, comment cela va se passer ? </p>
+            <p className="accompagnement-text rdv">J'ai pris rendez-vous, comment cela va se passer ? </p>
             <ul className='accompagnement-list'>
                 <li>Le règlement par virement ou paypal vous sera demandé avant le rendez-vous</li>
                 <li>Vous recevez un lien pour rejoindre la visioconférence le jour du rendez-vous.</li>

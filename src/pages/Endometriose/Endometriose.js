@@ -18,7 +18,6 @@ import InfertilityM from '@/assets/images/EndoPictures/infertility/infertility_m
 import InfertilityL from '@/assets/images/EndoPictures/infertility/infertility_large_500.webp'
 
 import './endometriose.scss'
-import { Link } from 'react-router-dom';
 import Button from '../../components/Button/Button.js';
 
 const Endometriose = () => {

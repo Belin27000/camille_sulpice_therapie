@@ -9,7 +9,6 @@ export function useTypingeffect(
 
     useEffect(() => {
         const intervalId = setInterval(() => {
-            console.log(intervalId);
             setCurrentPosition((value) => value + 1)
             currentPositionRef.current += 1;
             if (currentPositionRef.current > textToType.length) {
