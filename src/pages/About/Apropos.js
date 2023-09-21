@@ -8,6 +8,7 @@ import ProfilPicEl from '../../assets/images/profil/Profile_extraLarge_1507.webp
 import ProfilPicSl from '../../assets/images/profil/Profile_superLarge_2031.webp'
 import ProfilPicXxL from '../../assets/images/profil/Profile_xxxxL_2100.webp'
 import { Link } from 'react-router-dom';
+import Button from '../../components/Button/Button.js';
 
 const Apropos = () => {
 
@@ -48,9 +49,10 @@ const Apropos = () => {
             <h3>Et personnellement ? </h3>
             <p className="about-text">Au fur et à mesure de cette formation, des principes acquis, et des mises en pratique en bilan de compétences, j’ai ressenti l’envie d’aller plus loin, et de proposer d’autres types d’accompagnements concernant la sphère personnelle et non plus uniquement professionnelle. </p>
             <p className="about-text">Atteinte d’endométriose j’ai vécu les impacts de cette maladie, rechercher des praticiens, psychologues ou psychothérapeutes mais je n’ai jamais trouver ce qui me correspondait. Je cherchais quelqu’un capable de comprendre ce que je vivais, ce qu’était cette maladie, ce qu’elle pouvait avoir comme impact dans ma vie et m’aider à mieux vivre avec, et surtout canaliser ses impacts, pas seulement une écoute attentive pour m’apaiser. </p>
+            <Button name={'Endométriose'} path={'/endometriose'} />
             <p className="about-text">C’est là que l’idée m’est venue, de dédier cette pratique aux femmes atteintes d’endométriose. C’est à ce moment que toute ma démarche à fait sens, c’est également un défi personnel, puisque cette maladie et tout ce qu’elle a causé dans ma vie, se transforme en quelque chose de plus positif. </p>
             <p className="about-text">Vous aussi vous êtes une endogirls ? une endowarrior ? Vous souhaitez être aidée ? </p>
-            <Link to="/contact" className="contact-link">Contact-moi</Link>
+            <Button name={'Prendre rendez-vous'} path={'/contact'} />
         </div>
     );
 };

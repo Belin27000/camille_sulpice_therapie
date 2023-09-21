@@ -7,6 +7,7 @@ import stepByStepL from '@/assets/images/stepByStep/stepBystep_large_1280.avif'
 import grassGrowL from '@/assets/images/grassGrows/grassGrow_large_1280.avif'
 import grassGrowM from '@/assets/images/grassGrows/grassGrow_medium_1137.avif'
 import grassGrowS from '@/assets/images/grassGrows/grassGrow_small_300.avif'
+import Button from '../../components/Button/Button.js';
 
 const Accompagnement = () => {
     return (
@@ -53,7 +54,7 @@ const Accompagnement = () => {
                 <li>La veille ou le jour J de votre rendez-vous je vous envoi un questionnaire en ligne à remplir afin de récolter des informations sur la manière dont vous vous sentez avant d’aborder votre séance.</li>
                 <li>A l’heure du rendez-vous, nous nous rejoignons en visio et la séance démarre. </li>
             </ul>
-
+            <Button name={'Prendre rendez-vous'} path={'/contact'} />
         </div>
     );
 };

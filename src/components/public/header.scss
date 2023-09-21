@@ -10,8 +10,12 @@ header div {
 
 .Logo {
     width: 25%;
-    height: 100%;
-    object-fit: cover;
+
+    &-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 .TitleHeader {
@@ -26,6 +30,7 @@ header div {
         flex-direction: column;
         align-items: center;
         padding-bottom: 1rem;
+
     }
 
     .TitleHeader {

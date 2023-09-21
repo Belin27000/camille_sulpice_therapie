@@ -6,6 +6,7 @@ import Disease from '@/assets/images/damier/maladie.avif'
 import '@/pages/home.scss'
 import { useTypingeffect } from '../hooks/typing-effect.js';
 import { Link } from 'react-router-dom';
+import Button from '../components/Button/Button.js';
 
 const Home = () => {
 
@@ -74,7 +75,7 @@ const Home = () => {
             </section>
             <div className="more">
                 <p>La thérapie brève peut vous aider à surmonter ces difficultés.</p>
-                <Link to="/accompagnement">Plus d'informations</Link>
+                <Button name={'Plus d\'informations'} path={"/accompagnement"} />
             </div>
         </div>
     );

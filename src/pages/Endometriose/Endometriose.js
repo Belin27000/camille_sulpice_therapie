@@ -19,6 +19,7 @@ import InfertilityL from '@/assets/images/EndoPictures/infertility/infertility_l
 
 import './endometriose.scss'
 import { Link } from 'react-router-dom';
+import Button from '../../components/Button/Button.js';
 
 const Endometriose = () => {
     return (
@@ -99,7 +100,7 @@ const Endometriose = () => {
             </section>
             <div className='endo-end'>
                 <p>Ce travail thérapeutique et cette approche peuvent vous aider dans votre vie avec l'endométriose. Vous êtes touchée par une autre maladie gynécologique ou bien chronique ? SOPK, adénomyose,  fibromyalgie, maladie de Crohn,...  </p>
-                <Link to="/contact">vous pouvez me contacter</Link>
+                <Button name={'Prendre rendez-vous'} path={'/contact'} />
             </div>
         </div>
     );
