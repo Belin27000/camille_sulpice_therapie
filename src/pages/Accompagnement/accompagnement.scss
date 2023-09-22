@@ -4,12 +4,8 @@
 
     &-text {
         margin: 1rem;
+        text-align: initial;
 
-        &.rdv {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--mainBlue);
-        }
     }
 
     &-title {
@@ -27,15 +23,22 @@
     }
 
     &-img {
-        width: 25%;
+        width: 100%;
         height: 100%;
-        border-radius: 10px;
+        // border-radius: 10px;
     }
 
     &-text_price {
         background-color: var(--mainBlue);
         padding: 1rem 0;
-        color: var(--thirdWhite);
+        color: var(--secondaryBeige);
+        font-size: 1.5rem;
+    }
+
+    &-text_rdv {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: var(--mainBlue);
     }
 
     &-list {
@@ -53,10 +56,30 @@
     }
 }
 
-@media screen and (min-width:1024px) {
+
+@media screen and (min-width:480px) {
+    .accompagnement {
+        &-img {
+            width: 50%;
+            border-radius: 10px;
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    .accompagnement {
+        &-img {
+            width: 35%;
+            border-radius: 10px;
+        }
+    }
+}
+
+@media screen and (min-width:992px) {
     .accompagnement {
         &-img {
             width: 25%;
+            border-radius: 10px;
         }
     }
 }

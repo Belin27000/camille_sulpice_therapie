@@ -1,6 +1,11 @@
 .endo {
     margin-bottom: 1rem;
 
+    &-text {
+        text-align: initial;
+        margin: 0 .5rem;
+    }
+
     &-title {
         background-color: var(--mainBlue);
         padding: 1rem 0;
@@ -22,20 +27,56 @@
     &-infertility {
         margin-bottom: 3rem;
 
-        img {
+        &-pic {
             width: 100%;
             height: auto;
         }
 
-        h4 {
-            font-size: 1.5rem;
-            color: var(--mainBlue);
+        &-description {
+
+            h4 {
+                font-size: 1.5rem;
+                color: var(--mainBlue);
+            }
+
+            ul {
+                margin: 0;
+                padding: 0 1rem;
+                display: flex;
+                flex-direction: column;
+
+            }
+        }
+
+        &-item {
+            width: 100%;
+            justify-content: flex-start;
+            display: list-item;
+            // text-align: initial;
         }
 
     }
 
     &-end a {
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .endo {
+
+        &-problem,
+        &-despress,
+        &-infertility {
+            &-pic {
+                width: 50%;
+                border-radius: 10px;
+
+            }
+        }
+
+        // img {
+        // }
     }
 }
 
@@ -48,8 +89,8 @@
             display: flex;
             width: 100%;
 
-            img {
-                width: 50%;
+            &-pic {
+                width: 25%;
             }
 
             div {
@@ -69,9 +110,16 @@
 
 @media screen and (min-width:920px) {
     .endo {
+        &-bande {
+            height: 200px;
+            object-fit: cover;
+        }
+
         &-text {
             margin: 0 1rem;
         }
+
+
 
         &-problem,
         &-despress,
@@ -81,8 +129,8 @@
             font-size: 1.2rem;
             margin-left: 2rem;
 
-            img {
-                width: 30%;
+            &-pic {
+                width: 20%;
                 height: 10%;
             }
 

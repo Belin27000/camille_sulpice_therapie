@@ -5,7 +5,8 @@ import Phobies from '@/assets/images/damier/phobies.avif'
 import Disease from '@/assets/images/damier/maladie.avif'
 import '@/pages/home.scss'
 import { useTypingeffect } from '../hooks/typing-effect.js';
-import Button from '../components/Button/Button.js';
+import Button from '@/components/Buttons/Button/Button.js';
+import ScrollToTop from '../components/Buttons/ScrollButton/ScrollToTop.js';
 
 const Home = () => {
 
@@ -17,6 +18,7 @@ const Home = () => {
                 <blockquote className='quote' tabIndex={0} >
                     <p>{text}</p>
                 </blockquote>
+                <ScrollToTop />
                 <p>Cette citation résume à elle seule très bien la thérapie brève systémique et stratégique !
                 </p>
                 <p>

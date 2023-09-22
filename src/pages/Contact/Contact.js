@@ -1,6 +1,7 @@
 import React from 'react';
 import './contact.scss'
 import { Link } from 'react-router-dom';
+import ScrollToTop from '../../components/Buttons/ScrollButton/ScrollToTop.js';
 
 const Contact = () => {
     return (
@@ -42,6 +43,7 @@ const Contact = () => {
                     <button className="contact-send">Envoyer</button>
                 </form>
             </div>
+            <ScrollToTop />
         </div>
     );
 };

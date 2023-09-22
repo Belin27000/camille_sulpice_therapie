@@ -22,15 +22,29 @@
     }
 
     &-list {
-        padding: 0;
+        padding: 0 .3rem;
 
-        li {
+        &-item {
             width: 100%;
-            display: list-item;
-            list-style-position: inside;
-            line-height: 2rem;
+            margin: 1rem 0;
 
+            &::before {
+                content: '';
+                width: 70px;
+                height: 70px;
+                background-size: cover;
+                background-image: url('../../assets/Dipôme.webp');
+                background-position: center top;
+            }
         }
+    }
+
+    &-title-perso {
+        width: 100%;
+        margin: 0;
+        padding: 1rem 0;
+        background-color: var(--mainBlue);
+        color: var(--secondaryBeige);
     }
 }
 
@@ -40,6 +54,15 @@
             width: 200px;
             height: 200px;
         }
+
+        &-list {
+            padding-right: 0;
+
+            &-item {
+                margin: 0;
+            }
+        }
     }
+
 
 }

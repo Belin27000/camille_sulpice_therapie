@@ -14,7 +14,7 @@ const Header = () => {
                 <Link to="/home" className='Logo'>
                     <img className='Logo-img' src={CSulpice_logo}
                         sizes="(max-width: 500px) 100vw, 500px"
-                        srcset=
+                        srcSet=
                         {`${CSulpice_logo} 500w`}
                         width='500'
                         height='500'
