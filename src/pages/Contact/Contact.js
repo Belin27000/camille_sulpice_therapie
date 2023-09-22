@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import './contact.scss'
 import { Link } from 'react-router-dom';
 import ScrollToTop from '../../components/Buttons/ScrollButton/ScrollToTop.js';
 
 const Contact = () => {
 
-    const [formValid, setFormValid] = useState(false)
+    // const [formValid, setFormValid] = useState(false)
     const [firstNameValid, setFirstNameValid] = useState('')
     const [lastNameValid, setLastNameValid] = useState('')
     const [emailValid, setEmailValid] = useState('')
@@ -15,7 +16,21 @@ const Contact = () => {
     const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/; //Regex email
     const phoneRegex = /^(?:(?:(?:\+|00)33[ ]?(?:\(0\)[ ]?)?)|0){1}[1-9]{1}([ .-]?)(?:\d{2}\1?){3}\d{2}$/; //Regex phone number
 
-    const validate = (formData) => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_b5eblol', 'template_f27x5a8', form.current, 'co2IW4LcdoDCQpEws')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
+    const validate = async (formData) => {
         let isValid = true;
         const firstName = formData.get("firstName")
         const lastName = formData.get("lastName")
@@ -37,27 +52,27 @@ const Contact = () => {
             setPhoneValid("Merci de préciser un numero de téléphone valide")
             isValid = false;
         }
-        setFormValid(isValid)
+        return isValid
 
     }
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         setFirstNameValid('')
         setLastNameValid('')
         setEmailValid('')
         setPhoneValid('')
-        setFormValid(false)
         const form = e.target
         const formData = new FormData(form)
-        validate(formData)
-        console.log(formValid);
-        if (formValid) {
-            alert('Tous les test sont passé')
+        const isValid = await validate(formData)
+
+        // setFormValid(isValid)
+
+        console.log(isValid);
+        if (isValid) {
+            sendEmail(e)
         } else {
             alert('verifier le formulaire')
         }
-
-
         // form.reset()
     }
 
@@ -71,7 +86,7 @@ const Contact = () => {
             <Link to='tel:0684624774'>06.84.62.47.74</Link>
             <p>Ou bien m'envoyer un mail via le formulaire de contact ci-dessous : </p>
             <div className='form-container'>
-                <form className='contact-form' onSubmit={(e) => handleSubmit(e)}>
+                <form ref={form} className='contact-form' onSubmit={(e) => handleSubmit(e)}>
                     <div>
                         <div className="input-wrapper">
                             <label htmlFor="lastName">Nom</label>
@@ -98,7 +113,7 @@ const Contact = () => {
                     </div>
                     <div className="input-wrapper">
                         <label htmlFor="Message">Message</label>
-                        <textarea type="text" id="Message" />
+                        <textarea type="text" id="Message" name="Message" />
                     </div>
 
                     <button className="contact-send">Envoyer</button>
