@@ -45,6 +45,7 @@ const Endometriose = () => {
                 <p>Quelle femme atteinte d’endomédriose ne s’est pas heurtée à des phrases du type “Vous n’avez pas mal, c’est dans votre tête !” ou bien “Avoir des douleurs pendant les règles est tout à fait normal!” de la part de son entourage ou même de professionnels du monde médical.</p>
                 <p>C’est pourquoi j’ai décidé de dédier mon activité à l’accompagnement et au soutien des femmes atteintes d’endométriose. </p>
                 <p>Parce que la thérapie brève systémique et stratégique peut vous aider à mieux vivre avec la maladie et vous apporter un mieux être. Tout en respectant vos émotions, votre vision du monde et de façon non pathologisante. </p>
+                <p>Ce travail thérapeutique et cette approche peuvent vous aider dans votre vie avec l'endométriose. Vous êtes touchée par une autre maladie gynécologique ou bien chronique ? SOPK, adénomyose,  fibromyalgie, maladie de Crohn,...  </p>
             </section>
             <section className="endo-problem">
                 <img className="endo-problem-pic"
@@ -60,7 +61,7 @@ const Endometriose = () => {
                     alt="Problèmes relationnels" />
                 <div className="endo-problem-description">
                     <h4>Problèmes relationnels</h4>
-                    <ul className='endo-text'>
+                    <ul className='endo-problem-list'>
                         <li className='endo-problem-item'>Couple, travail, famille, … </li>
                         <li className='endo-problem-item'>Votre conjoint, votre entourage professionnel ou votre famille ne vous comprends pas et cela crée des conflits ?</li>
                     </ul>
@@ -81,7 +82,10 @@ const Endometriose = () => {
                     alt="Problèmes relationnels" />
                 <div className="endo-despress-description">
                     <h4>Dépression & anxiété</h4>
-                    <p className='endo-text'>Examens médicaux, traitements, chirurgies, ... Autant d’étapes difficiles que vivent les femmes atteintes de cette maladie. </p>
+                    <ul className='endo-despress-list'>
+                        <li className='endo-despress-item'>Examens médicaux, traitements, chirurgies, ... </li>
+                        <li className='endo-despress-item'>Autant d’étapes difficiles que vivent les femmes atteintes de cette maladie.</li>
+                    </ul>
                 </div>
             </section>
             <section className="endo-infertility">
@@ -98,13 +102,14 @@ const Endometriose = () => {
                     alt="femme avec un test de grossesse négatif" />
                 <div className="endo-infertility-description">
                     <h4>Infertilité</h4>
-                    <p className='endo-text'>On sait que l’endométriose peut rendre la conception d’un enfant difficile mais qu’en est-il quand en plus le stress vient s’en mêler ? On connaît l’impact de la santé psychologique sur la fertilité. La thérapie brève peut vous aider dans un projet de procréation ou bien à mieux vivre avec l’infertilité.</p>
+                    <ul className='endo-infertility-list'>
+                        <li className='endo-infertility-item'>On sait que l’endométriose peut rendre la conception d’un enfant difficile mais qu’en est-il quand en plus le stress vient s’en mêler ? </li>
+                        <li className='endo-infertility-item'>On connaît l’impact de la santé psychologique sur la fertilité. </li>
+                        <li className='endo-infertility-item'>La thérapie brève peut vous aider dans un projet de procréation ou bien à mieux vivre avec l’infertilité.</li>
+                    </ul>
                 </div>
             </section>
-            <div className='endo-end'>
-                <p className='endo-text'>Ce travail thérapeutique et cette approche peuvent vous aider dans votre vie avec l'endométriose. Vous êtes touchée par une autre maladie gynécologique ou bien chronique ? SOPK, adénomyose,  fibromyalgie, maladie de Crohn,...  </p>
-                <Button name={'Prendre rendez-vous'} path={'/contact'} />
-            </div>
+            <Button name={'Prendre rendez-vous'} path={'/contact'} />
             <ScrollToTop />
         </div>
     );

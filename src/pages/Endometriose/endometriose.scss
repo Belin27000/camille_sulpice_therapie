@@ -26,6 +26,7 @@
     &-despress,
     &-infertility {
         margin-bottom: 3rem;
+        font-size: 1rem;
 
         &-pic {
             width: 100%;
@@ -39,27 +40,28 @@
                 color: var(--mainBlue);
             }
 
-            ul {
-                margin: 0;
-                padding: 0 1rem;
-                display: flex;
-                flex-direction: column;
 
-            }
+        }
+
+        &-list {
+            margin: 0;
+            padding: 0 1rem;
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
         }
 
         &-item {
+            margin: .5rem 0;
             width: 100%;
             justify-content: flex-start;
             display: list-item;
-            // text-align: initial;
+            text-align: initial;
         }
 
     }
 
-    &-end a {
-        font-size: 1.5rem;
-    }
+
 }
 
 @media screen and (min-width:480px) {
@@ -93,17 +95,21 @@
                 width: 25%;
             }
 
-            div {
+            &-description {
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
                 align-items: flex-start;
                 margin-left: 1rem;
+                justify-content: space-around;
 
-                p {
-                    text-align: left;
+                h4 {
+                    margin: 0;
                 }
             }
+
+            // &-item {
+            //     margin: .1rem;
+            // }
         }
     }
 }
@@ -125,8 +131,8 @@
         &-despress,
         &-infertility {
             display: flex;
-            // width: 70%;
-            font-size: 1.2rem;
+            width: 100%;
+            font-size: 1rem;
             margin-left: 2rem;
 
             &-pic {
@@ -134,9 +140,9 @@
                 height: 10%;
             }
 
-            div {
+            &-list {
                 display: flex;
-                width: 30%;
+                width: 50%;
                 justify-content: space-evenly;
 
                 h4 {
