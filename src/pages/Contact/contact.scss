@@ -2,6 +2,11 @@
     width: 100%;
     margin-bottom: 1rem;
 
+    .error {
+        font-size: .8rem;
+        margin: 0;
+        color: #190000;
+    }
 
     &-title {
         background-color: var(--mainBlue);
@@ -27,7 +32,7 @@
 
             label {
                 margin: 1rem 0;
-                color: var(--mainBlue);
+                color: #000000;
             }
 
             input {
