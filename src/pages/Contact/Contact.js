@@ -16,13 +16,16 @@ const Contact = () => {
     const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/; //Regex email
     const phoneRegex = /^(?:(?:(?:\+|00)33[ ]?(?:\(0\)[ ]?)?)|0){1}[1-9]{1}([ .-]?)(?:\d{2}\1?){3}\d{2}$/; //Regex phone number
 
+    const emailjsServiceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const emailjsTemplateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const emailjsPublicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
 
         // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-        emailjs.sendForm('service_b5eblol', 'template_f27x5a8', form.current, 'co2IW4LcdoDCQpEws')
+        emailjs.sendForm(emailjsServiceId, emailjsTemplateId, form.current, emailjsPublicKey)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
